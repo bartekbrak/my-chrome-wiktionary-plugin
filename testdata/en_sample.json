@@ -1,0 +1,22 @@
+jsonCallback(
+    {
+        "dictionary":
+        [
+            {
+                "word": "foo",
+                "linking": ["foos", "food"],
+                "definition": "a sample definition #1"
+            },
+            {
+                "word": "bar",
+                "linking": ["bars", "barred", "barring"],
+                "definition": "a sample definition #2"
+            },
+            {
+                "word": "spam",
+                "linking": "spam",
+                "definition": "a sample definition #3"
+            }
+        ]
+    }
+);
