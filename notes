@@ -1,0 +1,3 @@
+localStorage.setItem('ls_dictionary', JSON.stringify(dictionary));
+
+var retrievedObject = localStorage.getItem('ls_dictionary');
