@@ -2,7 +2,12 @@
 	"folders":
 	[
 		{
+			"follow_symlinks": true,
 			"path": "/home/bartek/workspace/001"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/bartek/workspace/wiktionarytodict"
 		}
 	]
 }
