@@ -1,3 +1,16 @@
 localStorage.setItem('ls_dictionary', JSON.stringify(dictionary));
 
 var retrievedObject = localStorage.getItem('ls_dictionary');
+
+
+LANG=pl
+LANG=es
+aspell -d ${LANG} dump master | aspell -l ${LANG} expand > ${LANG}.dict
+
+
+^[^ ]*$  # regex to match no-derivatives lines in dict file
+
+??:
+* Jak nie zabrudzić ich jQuery?
+* Jak nie zajbeać ramu?
+* Ile ramu zajmuję?
