@@ -14,3 +14,4 @@ aspell -d ${LANG} dump master | aspell -l ${LANG} expand > ${LANG}.dict
 * Jak nie zabrudzić ich jQuery?
 * Jak nie zajbeać ramu?
 * Ile ramu zajmuję?
+http://square.github.io/crossfilter/
